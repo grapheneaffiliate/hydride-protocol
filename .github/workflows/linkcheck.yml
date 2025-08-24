@@ -1,0 +1,16 @@
+name: linkcheck
+on:
+  push:
+    branches: [ main ]
+  pull_request: {}
+jobs:
+  linkchecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link check README and docs
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --no-progress --max-redirects 5 README.md docs/**/*.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
