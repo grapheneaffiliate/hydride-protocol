@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: High-Pressure Protocol for 300K Superconductivity in La–Y–H Systems at 120–180 GPa
+version: "2.0"
+authors:
+  - family-names: YourLast
+    given-names: YourFirst
+date-released: 2025-08-23
+repository-code: https://github.com/grapheneaffiliate/hydride-protocol
+license: CC-BY-SA-4.0
+message: If you use this protocol, please cite this repository.
