@@ -216,5 +216,5 @@ This work is licensed under CC-BY-SA 4.0. You are free to share and adapt with p
 
 ---
 
-*Last Updated: 2024*  
+*Last Updated: 2025*  
 *Version: 2.0 — Pressure-Transparent Edition*
