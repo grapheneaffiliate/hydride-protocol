@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-Pressure Protocol for 300K Superconductivity in La–Y–H Systems</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .page-break { page-break-after: always; }
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+        }
+        .version-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .warning-box h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .critical-box {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .critical-box h3 {
+            color: #721c24;
+            margin-top: 0;
+        }
+        .success-box {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .success-box h3 {
+            color: #155724;
+            margin-top: 0;
+        }
+        .figure {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        .figure img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .figure-caption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #3498db;
+        }
+        .yaml-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        .checklist li:before {
+            content: "☐ ";
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+        }
+        @media screen and (max-width: 768px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>High-Pressure Protocol for 300K Superconductivity in La–Y–H Systems at 120–180 GPa</h1>
+        
+        <div class="version-badge">Version 2.0 — Pressure-Transparent Edition</div>
+        
+        <h2>Executive Summary</h2>
+        <p>This protocol presents a <strong>pressure-transparent</strong> approach to achieving room temperature superconductivity in La–Y–H systems. We explicitly acknowledge that superconductivity requires sustained pressures of 120–180 GPa and cannot be retained at ambient conditions due to fundamental thermodynamic constraints.</p>
+        
+        <div class="critical-box">
+            <h3>⚠️ CRITICAL PRESSURE REQUIREMENTS</h3>
+            <p><strong>This protocol requires sustained pressures of 120–180 GPa for superconducting behavior.</strong></p>
+            <ul>
+                <li><strong>Minimum Pressure</strong>: 120 GPa (onset of superconducting phase)</li>
+                <li><strong>Optimal Range</strong>: 140–160 GPa (maximum Tc ≈ 300K)</li>
+                <li><strong>Decomposition</strong>: Rapid decomposition below 100 GPa at room temperature</li>
+                <li><strong>No Ambient Retention</strong>: Claims of ambient-pressure superconductivity are thermodynamically inconsistent</li>
+            </ul>
+        </div>
+        
+        <h2>Thermodynamic Reality</h2>
+        <p>The La–Y–H superconducting phase is <strong>thermodynamically unstable</strong> below ~100 GPa and decomposes rapidly at ambient conditions. Any claims of:</p>
+        <ul>
+            <li>Ambient-pressure retention</li>
+            <li>Pressure quenching</li>
+            <li>Metastable phases at low pressure</li>
+        </ul>
+        <p>...contradict fundamental thermodynamics and <strong>will not be accepted</strong>.</p>
+        
+        <h2>Key Results</h2>
+        
+        <div class="figure">
+            <h3>Figure 1: Critical Temperature vs Pressure</h3>
+            <img src="tc_vs_pressure.png" alt="Critical Temperature vs Pressure">
+            <div class="figure-caption">The critical temperature shows a clear onset at 120 GPa, reaching maximum values near 300K in the 140–160 GPa range. Below 120 GPa, no superconductivity is observed.</div>
+        </div>
+        
+        <div class="figure">
+            <h3>Figure 2: Stability Trade-off (λ vs ω<sub>log</sub>)</h3>
+            <img src="lambda_vs_omegalog.png" alt="Lambda vs Omega Log">
+            <div class="figure-caption">The electron-phonon coupling parameter λ must be balanced against the logarithmic phonon frequency ω<sub>log</sub>. Our target of λ ≈ 3.0 at ω<sub>log</sub> ≈ 160 meV represents an optimal compromise between coupling strength and structural stability.</div>
+        </div>
+        
+        <div class="figure">
+            <h3>Figure 3: Phase Stability Diagram</h3>
+            <img src="phase_stability_diagram.png" alt="Phase Stability Diagram">
+            <div class="figure-caption">
+                The pressure-temperature phase diagram clearly shows:
+                <ul style="text-align: left; display: inline-block;">
+                    <li><strong>Decomposed</strong> (&lt; 50 GPa): Complete phase decomposition</li>
+                    <li><strong>Metastable</strong> (50–100 GPa): Transient, non-superconducting</li>
+                    <li><strong>Normal</strong> (100–120 GPa): Stable but non-superconducting</li>
+                    <li><strong>Superconducting</strong> (120–180 GPa): Room temperature superconductivity</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h2>Protocol Overview</h2>
+        
+        <h3>Computational Prerequisites (Go/No-Go Gates)</h3>
+        <ol>
+            <li><strong>DFT Structure Optimization</strong>
+                <ul>
+                    <li>✓ Converged lattice parameters at target pressure</li>
+                    <li>✓ Phonon stability (no imaginary modes)</li>
+                    <li>✓ Electronic band structure validation</li>
+                </ul>
+            </li>
+            <li><strong>SSCHA Phonon Calculations</strong>
+                <ul>
+                    <li>✓ Self-consistent harmonic approximation at measurement pressure</li>
+                    <li>✓ Temperature-dependent phonon spectra</li>
+                    <li>✓ Anharmonic corrections included</li>
+                </ul>
+            </li>
+            <li><strong>Superconducting Properties</strong>
+                <ul>
+                    <li>✓ Eliashberg function α²F(ω) calculation</li>
+                    <li>✓ McMillan-Allen-Dynes Tc estimation</li>
+                    <li>✓ λ parameter optimization (target: 2.5–3.5)</li>
+                </ul>
+            </li>
+        </ol>
+        
+        <h3>Experimental Requirements</h3>
+        
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Requirements</th>
+            </tr>
+            <tr>
+                <td><strong>Equipment</strong></td>
+                <td>
+                    • Diamond anvil cell (DAC) capable of 120+ GPa<br>
+                    • Laser heating system for synthesis<br>
+                    • Four-point resistance measurement capability<br>
+                    • Proper pressure calibration standards
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Required Controls</strong></td>
+                <td>
+                    • <strong>Field Suppression</strong>: Magnetic field must suppress Tc<br>
+                    • <strong>Isotope Effect</strong>: H/D substitution must affect Tc<br>
+                    • <strong>Pressure Dependence</strong>: Systematic Tc variation with pressure
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Data Requirements</strong></td>
+                <td>
+                    • Raw R(T) data at multiple pressures<br>
+                    • Pressure calibration data (Ruby, Raman)<br>
+                    • Control measurement results<br>
+                    • Statistical analysis of reproducibility
+                </td>
+            </tr>
+        </table>
+        
+        <h2>Reporting Standards</h2>
+        
+        <h3>Required YAML Metadata Block</h3>
+        <p>All contributions must include:</p>
+        
+        <div class="yaml-block">
+measurement_type: [experimental|computational|hybrid]
+pressure_range: [min_GPa, max_GPa]
+temperature_range: [min_K, max_K]
+sample_composition: "La_x Y_y H_z"
+measurement_techniques: [list]
+controls_performed: [field_suppression, isotope_effect, pressure_dependence]
+data_availability: [raw_data_link]
+pressure_calibration: [method_and_standards]
+        </div>
+        
+        <h3>Compliance Checklist</h3>
+        <ul class="checklist">
+            <li>Pressure requirements acknowledged (120–180 GPa)</li>
+            <li>No ambient-pressure claims</li>
+            <li>Thermodynamic consistency maintained</li>
+            <li>All control measurements performed</li>
+            <li>Raw data publicly available</li>
+            <li>Pressure calibration documented</li>
+        </ul>
+        
+        <h2>What We Accept vs. What We Reject</h2>
+        
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div class="success-box" style="flex: 1; min-width: 250px;">
+                <h3>✅ Welcomed Contributions</h3>
+                <ul>
+                    <li>High-pressure experimental data with proper controls</li>
+                    <li>SSCHA phonon calculations at measurement pressures</li>
+                    <li>Improved synthesis or measurement protocols</li>
+                    <li>Theoretical analysis within BCS-Eliashberg framework</li>
+                    <li>Reproducibility studies with statistical analysis</li>
+                </ul>
+            </div>
+            
+            <div class="critical-box" style="flex: 1; min-width: 250px;">
+                <h3>❌ Rejected Claims</h3>
+                <ul>
+                    <li>Ambient-pressure superconductivity</li>
+                    <li>Pressure quenching or "frozen" phases</li>
+                    <li>Data without pressure calibration</li>
+                    <li>Results lacking control measurements</li>
+                    <li>Exotic theoretical mechanisms</li>
+                    <li>Selective data reporting</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h2>Quick Reference</h2>
+        
+        <table>
+            <tr>
+                <th>Parameter</th>
+                <th>Value/Range</th>
+            </tr>
+            <tr>
+                <td>Pressure Range</td>
+                <td>120–180 GPa</td>
+            </tr>
+            <tr>
+                <td>Temperature Range</td>
+                <td>4–300 K</td>
+            </tr>
+            <tr>
+                <td>Composition</td>
+                <td>La<sub>1-x</sub>Y<sub>x</sub>H<sub>3+δ</sub></td>
+            </tr>
+            <tr>
+                <td>Critical Temperature</td>
+                <td>~300K at 150 GPa</td>
+            </tr>
+            <tr>
+                <td>λ Parameter</td>
+                <td>2.5–3.5</td>
+            </tr>
+            <tr>
+                <td>ω<sub>log</sub></td>
+                <td>140–180 meV</td>
+            </tr>
+        </table>
+        
+        <h2>Safety and Ethics</h2>
+        
+        <div class="warning-box">
+            <h3>Safety Requirements</h3>
+            <ul>
+                <li>High-pressure safety training mandatory</li>
+                <li>Proper PPE for DAC operations</li>
+                <li>Emergency procedures in place</li>
+                <li>Institutional safety approval required</li>
+            </ul>
+        </div>
+        
+        <h2>Historical Context</h2>
+        <p>This work builds upon decades of high-pressure superconductor research, incorporating lessons learned from previous studies and retractions. Key principles:</p>
+        <ul>
+            <li><strong>Pressure Transparency</strong>: Honest acknowledgment of pressure requirements</li>
+            <li><strong>Thermodynamic Consistency</strong>: Respect for fundamental constraints</li>
+            <li><strong>Reproducibility</strong>: Detailed protocols for independent verification</li>
+            <li><strong>Data Integrity</strong>: Complete reporting of all measurements</li>
+        </ul>
+        
+        <p>For detailed analysis, see: <a href="docs/appendix_lessons_from_retractions.md">Appendix: Lessons from Retractions</a></p>
+        
+        <div class="footer">
+            <p><strong>Repository</strong>: <a href="https://github.com/grapheneaffiliate/hydride-protocol">https://github.com/grapheneaffiliate/hydride-protocol</a></p>
+            <p><strong>License</strong>: CC-BY-SA 4.0 | <strong>Version</strong>: 2.0 — Pressure-Transparent Edition</p>
+            <p><strong>Disclaimer</strong>: High-pressure experiments require specialized equipment and safety training. Always follow institutional safety guidelines.</p>
+        </div>
+    </div>
+</body>
+</html>
