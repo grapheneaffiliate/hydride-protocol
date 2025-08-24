@@ -1,0 +1,29 @@
+{
+  "title": "High-Pressure Protocol for 300K Superconductivity in La–Y–H Systems at 120–180 GPa",
+  "version": "2.0",
+  "upload_type": "software",
+  "publication_date": "2025-08-23",
+  "creators": [
+    {
+      "name": "YourLast, YourFirst"
+    }
+  ],
+  "description": "Pressure-Transparent Edition v2.0 with strict reporting standards, front matter, figures, reporting templates, and lessons-from-retractions appendix. No ambient-pressure claims; requires 120–180 GPa.",
+  "access_right": "open",
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "superconductivity",
+    "hydrides",
+    "high pressure",
+    "diamond anvil cell",
+    "La–Y–H",
+    "protocol"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/grapheneaffiliate/hydride-protocol",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
