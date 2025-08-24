@@ -1,9 +1,9 @@
 # High-Pressure Protocol for 300K Superconductivity in La–Y–H Systems at 120–180 GPa
 
-**Version 2.0 — Pressure-Transparent Edition**
+**Version 2.1 — Pressure-Transparent Edition**
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8765432-blue.svg)](https://doi.org/10.5281/zenodo.8765432)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.16935088-blue.svg)](https://doi.org/10.5281/zenodo.16935088)
 [![GitHub issues](https://img.shields.io/github/issues/grapheneaffiliate/hydride-protocol.svg)](https://github.com/grapheneaffiliate/hydride-protocol/issues)
 [![GitHub stars](https://img.shields.io/github/stars/grapheneaffiliate/hydride-protocol.svg)](https://github.com/grapheneaffiliate/hydride-protocol/stargazers)
 
@@ -22,13 +22,13 @@
 
 ## Key Results
 
-![Critical Temperature vs Pressure](tc_vs_pressure.png)
+![Critical temperature vs. pressure, showing onset at 120 GPa and peak around 140–160 GPa](tc_vs_pressure.png)
 *Figure 1: Critical temperature as a function of pressure showing onset at 120 GPa*
 
-![Lambda vs Omega Log](lambda_vs_omegalog.png)
+![Electron-phonon coupling (lambda) versus logarithmic phonon frequency (omega log), illustrating stability trade-off](lambda_vs_omegalog.png)
 *Figure 2: Stability trade-off between electron-phonon coupling (λ) and logarithmic phonon frequency (ωlog)*
 
-![Phase Stability Diagram](phase_stability_diagram.png)
+![Pressure-temperature phase diagram highlighting the superconducting region and decomposition boundaries](phase_stability_diagram.png)
 *Figure 3: Pressure-temperature phase diagram showing superconducting region and decomposition boundaries*
 
 ---
@@ -205,3 +205,4 @@ This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Int
 ---
 
 **Disclaimer**: This research protocol is for scientific and educational purposes. High-pressure experiments require specialized equipment and safety training. Always follow institutional safety guidelines and obtain proper training before attempting high-pressure synthesis or measurements.
+
